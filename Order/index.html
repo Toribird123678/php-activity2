@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order System</title>
+</head>
+<body>
+    <h1>Pangmayaman na tindahan! Here are the prices</h1>
+    <ul>
+        <li>Gucci - 300 PHP</li>
+        <li>Kikiam - 40 PHP</li>
+        <li>Corndog - 50 PHP</li>
+    </ul>
+    <form action="/Order/order.php" method="post">
+        <label for="order">Choose your order:</label>
+        <select name="order">
+            <option value="Gucci">Gucci</option>
+            <option value="Kikiam">Kikiam</option>
+            <option value="Corndog">Corndog</option>
+        </select><br><br>
+        <label for="quantity">Quantity:</label>
+        <input type="text" name="quantity"><br><br>
+        <label for="cash">Cash:</label>
+        <input type="text" name="cash"><br><br>
+        <input type="submit" value="Submit">
+    </div>
+</body>
+</html>
